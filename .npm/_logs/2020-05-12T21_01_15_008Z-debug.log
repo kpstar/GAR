@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'build' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle clientside@1.0.0~prebuild: clientside@1.0.0
+6 info lifecycle clientside@1.0.0~build: clientside@1.0.0
+7 verbose lifecycle clientside@1.0.0~build: unsafe-perm in lifecycle true
+8 verbose lifecycle clientside@1.0.0~build: PATH: /usr/share/npm/node_modules/npm-lifecycle/node-gyp-bin:/var/www/html/tgl-10-ui/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+9 verbose lifecycle clientside@1.0.0~build: CWD: /var/www/html/tgl-10-ui
+10 silly lifecycle clientside@1.0.0~build: Args: [ '-c',
+10 silly lifecycle   'webpack --progress --config build/webpack.config.prod.js' ]
+11 silly lifecycle clientside@1.0.0~build: Returned: code: 2  signal: null
+12 info lifecycle clientside@1.0.0~build: Failed to exec build script
+13 verbose stack Error: clientside@1.0.0 build: `webpack --progress --config build/webpack.config.prod.js`
+13 verbose stack Exit status 2
+13 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:198:13)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:198:13)
+13 verbose stack     at maybeClose (internal/child_process.js:982:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+14 verbose pkgid clientside@1.0.0
+15 verbose cwd /var/www/html/tgl-10-ui
+16 verbose Linux 5.4.0-26-generic
+17 verbose argv "/usr/bin/node" "/usr/bin/npm" "run" "build"
+18 verbose node v10.19.0
+19 verbose npm  v6.14.4
+20 error code ELIFECYCLE
+21 error errno 2
+22 error clientside@1.0.0 build: `webpack --progress --config build/webpack.config.prod.js`
+22 error Exit status 2
+23 error Failed at the clientside@1.0.0 build script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 2, true ]
